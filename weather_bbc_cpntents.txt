@@ -1,0 +1,97 @@
+
+
+
+
+Sunlight Hours
+
+Wet Day
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sunrise 06:27 Sunset 19:27
+
+
+
+Time
+	1000 hours	1100 hours	1200 hours	1300 hours	1400 hours	1500 hours	1600 hours	1700 hours	1800 hours	1900 hours	2000 hours	2100 hours	2200 hours	2300 hours	0000 hours
+Mon	0100 hours	0200 hours	0300 hours	0400 hours	0500 hours	 	 	 	 
+
+
+Weather Conditions
+	Sunny Intervals 	Light Cloud 	Sunny Intervals 	Light Cloud 	Light Cloud 	Light Cloud 	Heavy Rain 	Thick Cloud 	Heavy Rain 	Heavy Rain Shower 	Light Rain Shower 	Clear Sky 	Partly Cloudy 	Partly Cloudy 	Clear Sky 	Clear Sky 	Clear Sky 	Clear Sky 	Clear Sky 	Light Rain Shower 	 	 	 	 
+Cloud
+Clear
+Cloudy
+
+Rainfall
+Light Heavy Extreme
+
+Snowfall
+Light Heavy
+
+Fog
+Light Heavy
+
+Frost
+Light Heavy
+
+
+
+
+Temperature (°C)
+	14°C 	16°C 	17°C 	17°C 	17°C 	17°C 	16°C 	16°C 	16°C 	16°C 	15°C 	14°C 	14°C 	13°C 	13°C 	12°C 	12°C 	11°C 	11°C 	11°C 	 	 	 	 
+
+Wind Speed (mph)
+	Wind Speed 8 mph South Westerly 	Wind Speed 10 mph South Westerly 	Wind Speed 12 mph South Westerly 	Wind Speed 14 mph South Westerly 	Wind Speed 13 mph South Westerly 	Wind Speed 14 mph South Westerly 	Wind Speed 16 mph South Westerly 	Wind Speed 15 mph South South Westerly 	Wind Speed 16 mph South Westerly 	Wind Speed 14 mph South Westerly 	Wind Speed 13 mph West South Westerly 	Wind Speed 13 mph West South Westerly 	Wind Speed 12 mph West South Westerly 	Wind Speed 12 mph West South Westerly 	Wind Speed 11 mph South Westerly 	Wind Speed 11 mph South Westerly 	Wind Speed 12 mph South Westerly 	Wind Speed 12 mph South Westerly 	Wind Speed 12 mph South Westerly 	Wind Speed 13 mph South Westerly 	 	 	 	 
+
+Wind Direction
+	SW 	SW 	SW 	SW 	SW 	SW 	SW 	SSW 	SW 	SW 	WSW 	WSW 	WSW 	WSW 	SW 	SW 	SW 	SW 	SW 	SW 	 	 	 	 
+
+Humidity
+	75% 	68% 	66% 	64% 	67% 	70% 	70% 	77% 	84% 	85% 	81% 	76% 	74% 	74% 	72% 	73% 	73% 	72% 	71% 	71% 	 	 	 	 
+
+Visibility (E = Excellent, VG = Very Good, G = Good, M = Moderate, P = Poor, VP = Very Poor)
+	G	G	G	G	G	G	VG	VG	G	G	G	VG	VG	VG	VG	VG	VG	VG	VG	VG	 	 	 	 
+
+Pressure (Millibars)
+	1002 	1002 	1001 	1000 	999 	998 	996 	995 	994 	993 	993 	993 	993 	993 	993 	993 	993 	992 	991 	991 	 	 	 	 
+
+Precipitation (mm)
+	0mm
+	20mm
+	40mm
+	60mm
+	80mm
+	100mm	
+	
+UV
+	1-8
+
+Pollution:
+	Low to Very High
+
+Pollen
+	Low to Very High 
+
+
+
+
+
+
+
+
+
+
+	
