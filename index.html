@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="weatherform" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="form-style.css">
+</head>
+
+<body>
+
+    <div class="top-bar">
+        <h1>Order Custom Weather</h1>
+    </div>
+
+    <div class="weather-form" id="weather-form">
+
+        <div v-show="sliderFormTag" class="slider-form">
+            <div class="slidecontainer">
+                <label for="air_temperature">Air temperature:</label>
+                <input type="range" min="-50" max="50" value="20" class="slider" id="air_temperature">
+            </div>
+            <div class="slidecontainer">
+                <label for="cloudiness">Cloudiness:</label>
+                <input type="range" min="1" max="100" value="50" class="slider" id="cloudiness">
+            </div>
+            <div class="slidecontainer">
+                <label for="percipitation">Percipitation:</label>
+                <input type="range" min="1" max="100" value="50" class="slider" id="percipitation">
+            </div>
+        </div>
+
+        <div class="dropdown-form">
+            <div class="dropdowncontainer">
+                <label for="choose_weather">Choose weather:</label>
+                <select name="weather_dropdown" id="choose_weather">
+                    <option value="storm">Thunderstorms, Thundershowers, Storm, Lightning</option>
+                    <option value="hail">Hail</option>
+                    <option value="snowstorm">Blowing Snow, Blizzard, Snowdrift, Snowstorm</option>
+                    <option value="snowshowers">Snow Showers, Flurries</option>
+                    <option value="snow">Snow, Heavy Snow, Snowfall</option>
+                    <option value="lightsnow">Light Snow</option>
+                    <option value="sleet">Sleet</option>
+                    <option value="shower">Showers, Heavy Showers, Rainshower</option>
+                    <option value="occasionalshowers">Occasional Showers, Scattered Showers</option>
+                    <option value="isolatedshowers">Isolated Showers</option>
+                    <option value="lightshowers">Light Showers</option>
+                    <option value="freezingrain">Freezing Rain</option>
+                    <option value="rain">Rain</option>
+                    <option value="lightrain">Drizzle, Light Rain</option>
+                    <option value="fog">Fog</option>
+                    <option value="mist">Mist</option>
+                    <option value="smoke">Smoke</option>
+                    <option value="haze">Haze</option>
+                    <option value="overcast">Overcast</option>
+                    <option value="sunnyintervals">Sunny Intervals, No Rain, Clearing</option>
+                    <option value="sunnyperiods">Sunny Periods, Partly Cloudy, Partly Bright, Mild</option>
+                    <option value="cloudy">Cloudy, Mostly Cloudy</option>
+                    <option value="bright">Bright, Sunny, Fair, Fine, Clear</option>
+                    <option value="windy">Windy, Squall, Stormy, Gale</option>
+                    <option value="wet">Wet, Humid</option>
+                    <option value="dry">Dry</option>
+                    <option value="freezing">Freezing</option>
+                    <option value="frost">Frost</option>
+                    <option value="hot">Hot</option>
+                    <option value="cold">Cold, Chilly</option>
+                    <option value="warm">Warm</option>
+                    <option value="cool">Cool</option>
+                    <option value="sandstorm">Sandstorm, Duststorm, Sand, Dust</option>
+                    <option value="volcanicash">Volcanic Ash</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="buttoncontainer">
+            <button type="button" onclick="alert('Thank you!')">Order!</button>
+        </div>
+        
+    </div>
+
+    <div class="weather-display" id="weather-display">
+        <div class="weather-image">
+            <img v-bind:src="image">
+        </div>
+        <div id="thething">
+            <h3>My Weather {{ myWeather }}</h3>
+        </div>
+        <div id="theotherthing">
+            <h3>Your Weather {{ yourWeather }}</h3>
+        </div>
+
+        <p v-if="theFlag">Flag set!</p>
+        <p v-else>Flag not set: Oh dear...</p>
+
+        <img v-show="theFlag" v-bind:src="image">
+
+        <p v-if="temperature > 16">warm</p>
+        <p v-else-if="temperature <= 16 && temperature > 9">cool</p>
+        <p v-else>cold</p>
+
+        <ul>
+            <li v-for="weatherDesc in weatherList">{{ weatherDesc.weatherIconPath }}</li>
+        </ul>
+
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
